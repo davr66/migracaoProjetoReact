@@ -4,7 +4,7 @@ export default function NavBar(){
     return(
         <>
             <nav>
-                <img id="logo" src="./assets/images/logo.png" alt="Logo da página"/>
+                <img id="logo" src="./src/assets/logo.png" alt="Logo da página"/>
                 <ul>
                     <li><a href="#introducao">Inicio</a></li>
                     <li><a href="#noticias">Noticias</a></li>
@@ -14,7 +14,7 @@ export default function NavBar(){
                 </ul>
                 <div id="search">
                     <input type="text"/>
-                    <button type="submit"><img src="assets/images/search.png" alt="Pesquisar"/></button>    
+                    <button type="submit"><img src="./src/assets/search.png" alt="Pesquisar"/></button>    
                 </div>
             </nav>
         </>

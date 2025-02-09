@@ -1,0 +1,32 @@
+article{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width:20%;
+    height:fit-content;
+    padding: 25px;
+    border-radius: 20px;
+    gap:5px;
+    background-color: #fff;
+    color:#000;
+}
+
+article a{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article a:hover{
+    color: #f5f5f5;
+    background-color: hsl(251, 37%, 43%);
+}
+
+article p{
+    word-break: normal;
+}
+
+article img{
+    width: 60%;
+    height: 60%;
+}
