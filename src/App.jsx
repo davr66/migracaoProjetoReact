@@ -3,12 +3,14 @@ import './App.css'
 import Footer from './components/Footer/Footer'
 import NavBar from './components/NavBar/NavBar'
 import NewsSection from './NewsSection'
+import HomeSection from './HomeSection'
 
 function App() {
 
   return (
     <>
       <NavBar></NavBar>
+      <HomeSection></HomeSection>
       <NewsSection></NewsSection>
       <Footer></Footer> 
     </>
