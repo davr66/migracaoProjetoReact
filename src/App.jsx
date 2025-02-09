@@ -6,6 +6,8 @@ import NewsSection from './sections/news/NewsSection'
 import HomeSection from './sections/home/HomeSection'
 import VideosSection from './sections/videos/VideosSection'
 import ExpertsSection from './sections/experts/ExpertsSection'
+import ContactSection from './sections/contact/ContactSection'
+
 
 function App() {
 
@@ -16,6 +18,7 @@ function App() {
       <NewsSection></NewsSection>
       <VideosSection></VideosSection>
       <ExpertsSection></ExpertsSection>
+      <ContactSection></ContactSection>
       <Footer></Footer> 
     </>
   )

@@ -1,0 +1,22 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+form div{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+input,textarea{
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover{
+    cursor:pointer;
+    color:#fff;
+    background-color: rgb(91, 35, 105);
+}
