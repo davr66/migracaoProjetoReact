@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:70px;
+    padding:5% 0 2% 0;
+    width:100%;
+    background-color: rgb(4, 4, 71);
+    color:#fff;
+    align-self: flex-end;
+}
+footer div{
+    display: flex;
+    gap: 25%;
+    width: 50%;
+}
+
+footer div a svg{
+    width:40px;
+    height: 40px;
+    color:#fff;
+}
+
+footer div a{
+    padding: 15px;
+    border-radius: 20px;
+}
+
+footer div a:hover{
+    background-color: rgb(38, 38, 133);
+}
+
+footer p {
+    font-size: 20px;
+}
