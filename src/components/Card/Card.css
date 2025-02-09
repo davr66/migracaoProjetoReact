@@ -30,3 +30,7 @@ article img{
     width: 60%;
     height: 60%;
 }
+
+.profile img{
+    border-radius: 100px;
+}
