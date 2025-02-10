@@ -21,12 +21,15 @@ function NewsSection(){
     ]
 
     return(
-        <section id = 'newsSection'>
-            {
-                cardData.map((card,index) => (
-                    <Card key={index} obj = {card}></Card>
-                ))
-            }
+        <section id = 'noticias'>
+            <h2>Notícias</h2>
+            <div id='cards'>
+                {
+                    cardData.map((card,index) => (
+                        <Card key={index} obj = {card}></Card>
+                    ))
+                }
+            </div>
         </section>
     )
 }
